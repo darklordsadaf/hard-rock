@@ -39,7 +39,7 @@ body{
     border-radius: 15px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 576px) {
     .single-result{
         display: flex;
         flex-wrap: nowrap;
@@ -47,5 +47,11 @@ body{
     }
     .single-result h3{ 
         font-size: 4vw;
+    }
+    .single-result button{ 
+        font-size: 3vw;
+    }
+    .single-result p{ 
+        font-size: 3vw;
     }
   }
