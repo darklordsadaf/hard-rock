@@ -43,7 +43,15 @@ body{
     .single-result{
         display: flex;
         flex-wrap: nowrap;
+        flex-shrink: 3;
         
+    }
+    .search-bar button{
+        font-size: 3vw;
+    }
+
+    .single-result img{ 
+        width: 20vw;
     }
     .single-result h3{ 
         font-size: 4vw;
